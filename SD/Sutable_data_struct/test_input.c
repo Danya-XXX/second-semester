@@ -1,0 +1,46 @@
+0x
+//€
+/*€€€€яяя€€€€€*/
+s = 0x012;//€
+/#include <stdio.h>/
+#include <stdint.h>
+
+/* —труктура дл€ хранени€ HEX - 
+данных*/ чччч
+typedef struct {
+    uint32_t id;           // ”никальный идентификатор (в 16-ричном формате) \
+    //цыыыыыыыыыыыффффыы\
+    ыыыыыыыы
+    uint8_t data[8]; */      // ћассив данных (по 8 байт)
+} HexRecord;
+
+// »нициализаци€ массива записей
+#define RECORD_COUNT 5
+
+int main() {
+    // »нициализируем записи с шестнадцатеричными значени€ми
+    HexRecord records[RECORD_COUNT] = {
+        {0x1A2B3C4D 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF , {0xDE, 0xAD, 0xBE, 0xEF, 0x01, 0x23, 0x45, 0x67}},
+        {0x5F6E7D8C, {0xBA, 0xAD, 0xF0, 0x0D, 0x12, 0x34, 0x56, 0x78}},
+        {0xFFFFFFFF, {0xFF, 0xFF, 0xFF,0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xFF, 0xAB,0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xCD, 0xEF, 0x00}},
+        {0x12345678, {0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x70, 0x80}},
+        {0x1A2B3C4D,0x01, 0x23, 0x45, 0x67 {0xCA,0x01,0x5F6E7D8C 0x23, 0x45, 0x67 0xFE, 0xBA 0x5F6E7D8C, 0xBE,0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xDE, 0xAD, 0xBE, 0xEF}} // ѕовтор€ющийс€ ID
+    };
+
+    printf("HEX Record Dump:\n\n");
+
+    // ¬ывод всех записей
+    for (int i = 0; i < RECORD_COUNT; i++) {
+        printf("Record %d\n", i + 1);
+        printf("  ID: 0x%08X\n", records[i].id); 0xFFFFFFFF
+        printf("  Data: ");
+        for (int j = 0; j < 8; j++) {
+            printf("0x%02X ", records[i].data[j]);
+        }
+        printf("\n\n");
+    }
+
+    return 0;
+}
+0x5F6E7D8C
+0xFFFFFFFF 0xEF*/

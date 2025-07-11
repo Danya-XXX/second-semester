@@ -1,0 +1,9 @@
+﻿  linelistsort.cpp
+C:\Users\Даниил\source\repos\linelistsort\linelistsort\linelistsort.cpp(30,28): warning C4244: =: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\Даниил\source\repos\linelistsort\linelistsort\linelistsort.cpp(35,41): warning C4244: =: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\Даниил\source\repos\linelistsort\linelistsort\linelistsort.cpp(49,15): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+  Создание кода
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  linelistsort.vcxproj -> C:\Users\Даниил\source\repos\linelistsort\x64\Release\linelistsort.exe

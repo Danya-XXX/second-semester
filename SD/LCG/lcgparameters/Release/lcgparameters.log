@@ -1,0 +1,12 @@
+﻿  lcgparameters.cpp
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(105,39): warning C4244: аргумент: преобразование "unsigned __int64" в "size_t", возможна потеря данных
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(117,19): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(161,43): warning C4244: аргумент: преобразование "unsigned __int64" в "size_t", возможна потеря данных
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(206,43): warning C4244: аргумент: преобразование "unsigned __int64" в "size_t", возможна потеря данных
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(217,17): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+  Создание кода
+  2 of 19 functions (10.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  lcgparameters.vcxproj -> C:\Users\Даниил\source\repos\lcgparameters\Release\lcgparameters.exe

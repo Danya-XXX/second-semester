@@ -1,0 +1,4 @@
+﻿  lcgparameters.cpp
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(117,19): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\Даниил\source\repos\lcgparameters\lcgparameters\lcgparameters.cpp(216,17): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+  lcgparameters.vcxproj -> C:\Users\Даниил\source\repos\lcgparameters\x64\Debug\lcgparameters.exe

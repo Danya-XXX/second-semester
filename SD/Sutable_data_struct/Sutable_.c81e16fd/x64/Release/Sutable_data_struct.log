@@ -1,0 +1,10 @@
+﻿  Sutable_data_struct.cpp
+C:\Users\Даниил\source\repos\Sutable_data_struct\Sutable_data_struct.cpp(99,16): warning C4091: typedef : пропускается слева от "SplayTree", когда ни одна переменная не объявлена
+C:\Users\Даниил\source\repos\Sutable_data_struct\Sutable_data_struct.cpp(314,39): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Даниил\source\repos\Sutable_data_struct\Sutable_data_struct.cpp(392,28): warning C4101: numb10: неиспользованная локальная переменная
+  Создание кода
+  1 of 16 functions ( 6.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Sutable_data_struct.vcxproj -> C:\Users\Даниил\source\repos\Sutable_data_struct\x64\Release\Sutable_data_struct.exe

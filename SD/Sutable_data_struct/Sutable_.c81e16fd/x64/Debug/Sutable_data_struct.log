@@ -1,0 +1,3 @@
+﻿  Sutable_data_struct.cpp
+C:\Users\Даниил\source\repos\Sutable_data_struct\Sutable_data_struct.cpp(98,16): warning C4091: typedef : пропускается слева от "SplayTree", когда ни одна переменная не объявлена
+  Sutable_data_struct.vcxproj -> C:\Users\Даниил\source\repos\Sutable_data_struct\x64\Debug\Sutable_data_struct.exe

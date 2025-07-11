@@ -1,0 +1,3 @@
+﻿  Data_base.cpp
+C:\Users\Даниил\source\repos\Data_base\Data_base\actions.h(248,1): warning C4715: find_studentID: значение возвращается не при всех путях выполнения
+  Data_base.vcxproj -> C:\Users\Даниил\source\repos\Data_base\x64\Debug\Data_base.exe
