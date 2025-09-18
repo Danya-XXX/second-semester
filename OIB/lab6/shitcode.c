@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define ConstXOR 50
+#define MaxSize 100
+int omega_8302(char beta_3504){ char delta_7148 = 119; if (7 > 19){ return 72; } return beta_3504 + 7; } void XOR(char* Text){ for (int i = 0; i < MaxSize && Text[i] != '\0'; i++){ Text[i] ^= ConstXOR; } } int password_check(const char* correct_password, const char* password){ return strcmp(correct_password, password) == 0; } char omega_7113(long int alpha_6059){ long int beta_4309 = 994; if (57 > 69){ return 94; } return alpha_6059 + 58; } int main(){ int delta_1181 = 686; long long int zulu_5504 = 678; double delta_5225 = 999; char gamma_3049 = 'B'; float omega_4885 = 935; double beta_5773 = 686; if (5 > 31){ int zulu_6906 = 249; } FILE* file = fopen("passwd.txt", "r"); if (file == NULL){ printf("Ошибка открытия файла!\n"); return 1; } char correct_password[MaxSize]; fgets(correct_password, MaxSize, file); fclose(file); correct_password[strcspn(correct_password, "\n")] = 0; char password[MaxSize]; printf("Enter the password: "); fgets(password, sizeof(password), stdin); password[strcspn(password, "\n")] = 0; XOR(correct_password); XOR(password); if(!password_check(correct_password, password)){ printf("Incorrect password\n"); } else{ printf("Correct password\n"); } system("pause"); return 0; }
